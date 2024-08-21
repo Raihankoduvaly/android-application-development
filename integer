@@ -1,0 +1,11 @@
+fun main()
+{
+  var a = 40
+    var b : Int
+    var c : Int
+    b = 20
+    c = a+b
+    print(c)
+
+    
+}
