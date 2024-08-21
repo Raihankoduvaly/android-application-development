@@ -1,0 +1,7 @@
+fun main() {
+    val a=" raihan"
+   print("""
+                       raihan   
+               raihan             raihan
+                       raihan""")
+}
