@@ -1,0 +1,14 @@
+
+class person
+{
+    var kotlin = "hello"
+    fun displayinfo()
+    {
+        println(kotlin)
+    }
+}
+fun main()
+{
+    val person = person()
+    person.displayinfo()
+}
