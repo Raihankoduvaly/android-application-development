@@ -1,0 +1,6 @@
+fun main() {
+    val numbers = arrayof(1,2,3,4,5)
+    val words:Array<String> = arrayOf("KOTLIN")
+    val squares =Array(5){i->i*i}
+    println("$numbers")
+}
