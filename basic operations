@@ -1,0 +1,9 @@
+fun main(args:Array<String>)
+{
+ var a = 40
+    println(a)
+    var b  = 20  
+    println(b)
+    b = b+10
+    println(b)
+    
