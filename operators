@@ -1,0 +1,60 @@
+fun main() {
+    //operators
+    var a = 10
+    var b = 5
+    val isTrue = true
+    val isFalse = false
+    val add = a+b
+    val mul = a*b
+    println("addition:$a + $b = $add")
+    println("multiplication: $a * $b =$mul")
+
+...........................................................
+
+
+fun main() {
+    //operators
+    var a = 10
+    var b = 5
+    val isTrue = true
+    val isFalse = false
+    val add = a+b
+    val mul = a*b
+    val div = a/b
+    val sub = a-b
+    println("addition:$a + $b = $add")
+    println("multiplication: $a * $b =$mul")
+    println("division: $a/$b = $div")
+    println("subtraction: $a - $b = $sub")
+}
+.............................................................
+
+
+fun main() {
+    //operators
+    
+    var a = 10
+    var b = 20
+    println("$a > $ b = ${a>b}")
+    println("$a < $b = ${a<b}")
+     println("$a >= $ b = ${a>=b}")
+    
+    
+   
+}
+..................................................................
+
+
+fun main() {
+    // unary operators
+    
+    var a = 10
+    var b = 20
+   
+    println("+$a : ${+a}")
+    println("-$b : ${-b}")
+    println("++$a : ${++a}")
+    println("--$b : ${--b}")
+    
+    
+    
