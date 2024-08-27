@@ -1,0 +1,9 @@
+fun demo() {
+    
+    println("hello,World!")
+    
+}
+fun main(args:Array<String>){
+    demo()
+    
+}
