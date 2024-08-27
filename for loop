@@ -1,0 +1,32 @@
+fun main(){
+    for (i in 1..6){
+        println("$i")
+    }
+}
+
+
+..............................................
+
+fun main(args:Array<String>){
+    for (i in 5 downTo 1){
+        println("$i")
+    }
+}
+
+...............................................
+fun main(args:Array<String>){
+    for (i in 5 downTo 1 step 2){
+        println("$i")
+    }
+}
+
+.................................................
+
+    fun main() {
+    val fruits= listOf("Apple","Banana","Cherry")
+     for(fruit in fruits){
+    println("Fruit: $fruits")}
+
+}
+
+...................................................
