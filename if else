@@ -1,0 +1,10 @@
+fun main() {
+    
+    val temperature = 25
+    if(temperature>20)
+    {
+        println("warm day")
+    }
+    else
+    println("cold day")
+}
