@@ -1,0 +1,7 @@
+fun main() {
+    var a = "Bye"
+    var b: String = a as String
+    println("unsafe casting :: $b")
+    var c: Int = a as? Int
+    println("unsafe casting :: $c")
+}
