@@ -1,0 +1,27 @@
+fun main(){
+    val dayofweek = 3
+    val dayname = when(dayofweek)
+    {
+        1-> "monday"
+        2-> "tuesday"
+        3-> "wednesday"
+        4-> "thursday"
+        5-> "friday"
+        6-> "Saturday"
+        7-> "Sunday"
+        else ->"invalid day"
+    }
+    println("Day of the week: $dayname")
+}
+.....................................................................................
+
+fun main() {
+    val num = 9
+    when{
+        num % 2 == 0 -> println("its an even num")
+        num % 2 !=0 ->println("its a odd num")
+        else -> println("invalid num")
+    }
+    
+}
+.......................................................................................
