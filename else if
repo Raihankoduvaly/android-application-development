@@ -1,0 +1,33 @@
+import java.util.*
+fun main(){
+    var sc=Scanner(System.'in')
+    println("enter the arithemetic u want:")
+    var ch:String=sc.nextLine()
+    println("Enter value")
+    var a:Int=sc.nextInt()
+     var b:Int=sc.nextInt()
+     if(ch=="+"){
+         println(a+b)
+         
+     }
+     else if(ch=="*"){
+         println(a*b)
+     }
+     else if(ch=="-"){
+         println(a-b)
+     }
+}
+....................................................................................
+
+fun main() {
+    val age=17
+    if (age<13){
+        println("Child")
+    }
+    else if(age in 13..18){
+        println("Teenager")
+    }
+    else{
+        println("adult")
+    }
+}
