@@ -7,3 +7,24 @@ fun main(args:Array<String>){
     demo()
     
 }
+............................................................
+fun sum(a:Int,b:Int) {
+    var c= a+b
+    println(c)
+}
+fun main(){
+    sum(20,50)
+}
+...............................................................
+fun main(args:Array<String>) {
+    val a = 10
+    val b = 20
+    val result =sum(a,b)
+    println(result)
+}
+fun sum(a:Int, b:Int):Int{
+    val x = a + b
+    return x
+}
+..................................................................
+
